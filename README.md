@@ -27,6 +27,20 @@ Inside the resources/assets folder of our project, we are going to place locally
 
 $ sudo npm install
 
+Lesson 2 - Controllers, Routes, Views, Database for the CRUD
+
+php artisan make:model Task -m
+
+php artisan config:clear
+
+php artisan migrate:refresh
+
+php artisan make:controller TaskController --resource
+
+php artisan route:list
+
+
+
 
 
 
