@@ -39,6 +39,16 @@ php artisan make:controller TaskController --resource
 
 php artisan route:list
 
+Lesson 3 - Connection API
+
+$ php artisan make:seeder TasksTableSeeder
+
+$ php artisan migrate:refresh --seed
+
+
+
+
+
 
 
 
