@@ -45,6 +45,12 @@ $ php artisan make:seeder TasksTableSeeder
 
 $ php artisan migrate:refresh --seed
 
+Lesson 4 - Data list
+
+php artisan route:list
+
+npm run dev
+
 
 
 
