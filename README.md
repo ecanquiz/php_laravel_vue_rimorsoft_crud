@@ -51,6 +51,16 @@ php artisan route:list
 
 npm run dev
 
+Lesson 5 - Delete records
+
+$ php artisan migrate:refresh --seed
+
+$ npm run dev
+
+$ php artisan route:list
+
+
+
 
 
 
