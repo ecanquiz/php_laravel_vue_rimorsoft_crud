@@ -6,8 +6,8 @@
     <div class="col-xs-12">
         <h1 class="page-header">CRUD Laravel y VUEjs</h1>
     </div>
-    <div class="col-sm-7">
-        <a href="#" class="btn btn-primary pull-right">Nueva Tarea</a>
+    <div class="col-sm-8">
+        <a href="#" class="btn btn-primary float-right">Nueva Tarea</a> 
         <table class="table table-hover table-striped">
             <thead>
                 <tr>
@@ -32,7 +32,7 @@
             </tbody>
         </table>
     </div>
-    <div class="col-sm-5">
+    <div class="col-sm-4">
         <pre>
             @{{ $data }}
         </pre>
