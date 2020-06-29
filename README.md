@@ -59,6 +59,12 @@ $ npm run dev
 
 $ php artisan route:list
 
+Lesson 6 - TOASTR notifications
+
+$ npm run dev
+
+
+
 
 
 
