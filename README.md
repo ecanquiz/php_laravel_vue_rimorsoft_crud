@@ -63,7 +63,7 @@ Lesson 6 - TOASTR notifications
 
 $ npm run dev
 
-
+Lesson 7 - Creation form with Modal window - Laravel and Vuejs
 
 
 
