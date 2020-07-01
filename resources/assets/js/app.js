@@ -4,7 +4,9 @@ new Vue({
         this.getKeeps();
     },
     data: {
-        keeps: []
+        keeps: [],
+        newKeep: '',
+        errors: []
     },
     methods: {
         getKeeps: function() {
@@ -18,6 +20,20 @@ new Vue({
             axios.delete(url).then(response => {
                this.getKeeps();
                toastr.success('Eliminado correctamente');
+            });
+        },
+        createKeep: function () {
+            var url = 'tasks';
+            axios.post(url, {
+                keep: this.newKeep
+            }).then(response => {
+               this.getKeeps();
+               this.newKeep = '';
+               this.errors = [];
+               $('#create').modal('hide');
+               toastr.success('Nueva tarea creada con éxito');
+            }).catch(error => {
+               this.errors = error.response.data;
             });
         }
     }

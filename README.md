@@ -65,6 +65,10 @@ $ npm run dev
 
 Lesson 7 - Creation form with Modal window - Laravel and Vuejs
 
+Lesson 8 - Saving data with LARAVEL and VUEjs - STORE method
+
+$ npm run dev
+
 
 
 
