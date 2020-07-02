@@ -69,6 +69,10 @@ Lesson 8 - Saving data with LARAVEL and VUEjs - STORE method
 
 $ npm run dev
 
+Lesson 9 - Edit Form with LARAVEL and VUEjs
+
+$ npm run dev
+
 
 
 
