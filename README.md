@@ -73,6 +73,15 @@ Lesson 9 - Edit Form with LARAVEL and VUEjs
 
 $ npm run dev
 
+Lesson 10 - Update records with LARAVEL and VUEjs
+
+$ php artisan route:list
+
+$ npm run dev
+
+
+
+
 
 
 
