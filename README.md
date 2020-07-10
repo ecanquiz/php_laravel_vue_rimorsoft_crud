@@ -79,6 +79,14 @@ $ php artisan route:list
 
 $ npm run dev
 
+Lesson 11 - X-XSRF-TOKEN LARAVEL, VUE and AXIOS
+
+Lesson 12 - Pagination using VUEjs and LARAVEL - Part 1
+
+$ npm run dev
+
+
+
 
 
 
