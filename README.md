@@ -85,6 +85,25 @@ Lesson 12 - Pagination using VUEjs and LARAVEL - Part 1
 
 $ npm run dev
 
+Lesson 13 - VUEjs and LARAVEL Computed Property Pagination - Part 2
+
+$ npm run dev
+
+Lesson 14 - VUEjs and LARAVEL Pagination Page calculation - Part 3
+
+$ npm run dev
+
+Lesson 15 - VUEjs and LARAVEL pagination Calculation of pages - Part 4 (FINAL)
+
+$ npm run dev
+
+Lesson 16 - CRUD en Laravel y VUEjs - Despedida
+
+
+
+
+
+
 
 
 

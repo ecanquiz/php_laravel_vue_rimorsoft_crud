@@ -2,6 +2,10 @@
 
 @section('content')
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 <div id="crud" class="row">
     <div class="col-xs-12">
         <h1 class="page-header">CRUD Laravel y VUEjs</h1>
@@ -35,6 +39,25 @@
                 </tr>
             </tbody>
         </table>
+        <nav>
+            <ul class="pagination">
+                <li v-if="pagination.current_page > 1">
+                    <a href="#" @click.prevent="changePage(pagination.current_page - 1)" class="page-item">
+                        <span>Atrás</span>
+                    </a>
+                </li>
+                <li v-for="page in pagesNumber" v-bind:class="[ page == isActived ? 'active' : '']">
+                    <a href="#" @click.prevent="changePage(page)">
+                        @{{ page }}
+                    </a>
+                </li>
+                <li v-if="pagination.current_page < pagination.last_page">
+                    <a href="#" @click.prevent="changePage(pagination.current_page + 1)">
+                        <span>Siguiente</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
         @include('create')
         @include('edit')
     </div>
